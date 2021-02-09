@@ -1,1 +1,1 @@
-# gem-puzzle
+Deploy: https://rolling-scopes-school.github.io/tonykosmos-JS2020Q3/gem-puzzle/
