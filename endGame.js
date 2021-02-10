@@ -1,8 +1,6 @@
 import {loaded, field, fieldSize, endGameMessage, bodyShadow, endGameMessageText, scoreData, clockTime, 
     addZero, min, sec, numberOfMoves} from "./script.js";
 
-const records = JSON.parse(localStorage.records);
-
 export function endGame() {
     if (loaded) {
         for(let i = 1; i < fieldSize**2; i++) {
@@ -24,7 +22,8 @@ export function endGame() {
             }
         }   
     }
-
+    
+    const records = JSON.parse(localStorage.records);
     endGameMessage.classList.toggle("active");
     bodyShadow.style.visibility = "visible";
     clearInterval(clockTime);

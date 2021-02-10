@@ -2,7 +2,6 @@
   "name": "gem-puzzle",
   "version": "1.0.0",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -10,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
